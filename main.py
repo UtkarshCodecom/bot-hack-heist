@@ -228,7 +228,8 @@ def aplywatermark(filename, file):
         image = Image.open(f"watermark_free_page_{page_index + 1}.png")
         width, height = image.size
         draw = ImageDraw.Draw(image)
-        text = 't.me/bookskakhazana'
+        text = ' HACKHEIST
+(@OPMASTERLECTURE)'
         font_size = 36  # Adjust as needed
         font = ImageFont.truetype("CabalBold-78yP.ttf", font_size)
         textwidth, textheight = draw.textsize(text, font=font)
